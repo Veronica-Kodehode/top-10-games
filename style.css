@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  background: linear-gradient(to bottom, #4bc3b5, #d175b7);
+  background-attachment: fixed;
+  background-size: 100% 100vh;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+#title-container {
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+  margin: 20px 0px;
+
+  padding: 5px;
+}
+
+#content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.image-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  width: 650px;
+  border: 2px solid #23376a;
+  border-radius: 25px;
+  padding: 20px;
+  gap: 40px;
+  transition: all 0.3s ease-out;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+}
+
+.card-container:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(1.1);
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.card-content {
+  width: 50%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cat-box {
+  background-color: rgb(236, 231, 231);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(216, 208, 208);
+}
+
+p {
+  padding: 10px 0px;
+  margin-bottom: 5px;
+}
+
+.logo-circle {
+  background-color: rgb(236, 231, 231);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(216, 208, 208);
+}
+
+.logo-box {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+  overflow: visible;
+}

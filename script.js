@@ -6,7 +6,7 @@ const topSellers = [
     categories: ["Action", "Adventure", "RPG"],
     description:
       "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, set within the fictional state of San Andreas. The single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer Trevor Philips—and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals.",
-    platforms: ["PC", "Playstation", "X-Box"],
+    platforms: ["PC", "Playstation", "X-box"],
     logo: "gtav-logo.jpg",
   },
   {
@@ -17,7 +17,7 @@ const topSellers = [
     description:
       "Minecraft is a sandbox video game developed and published by Mojang. In Minecraft, players can build and explore virtual worlds made up of blocks. The game has various modes, including survival mode where players must acquire resources and maintain health, and creative mode where players have unlimited resources and can create elaborate structures.",
 
-    platforms: ["PC", "Playstation", "X-Box", "Nintendo"],
+    platforms: ["PC", "Playstation", "X-box", "Nintendo"],
     logo: "minecraft-logo.jpg",
   },
   {
@@ -50,7 +50,7 @@ const topSellers = [
     description:
       "PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game developed and published by PUBG Corporation. In PUBG, up to 100 players parachute onto an island, scavenge for weapons and equipment, and fight to be the last person or team standing. The game's map size gradually decreases over time, forcing players into closer proximity and increasing the intensity of the battles.",
 
-    platforms: ["PC", "Playstation", "X-Box", "Mobile"],
+    platforms: ["PC", "Playstation", "X-box", "Mobile"],
     logo: "pubg-logo.jpg",
   },
   {
@@ -94,7 +94,7 @@ const topSellers = [
     description:
       "Red Dead Redemption 2 is an action-adventure game developed by Rockstar Games. Set in the late 1800s, the game follows Arthur Morgan, a member of the Van der Linde gang, as he navigates the changing American frontier. The game features an expansive open world, immersive storytelling, and a mix of action, exploration, and interaction with a rich cast of characters.",
 
-    platforms: ["Playstation", "X-Box", "PC"],
+    platforms: ["Playstation", "X-box", "PC"],
     logo: "red-dead-logo.jpg",
   },
   {
